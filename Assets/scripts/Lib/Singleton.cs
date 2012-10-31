@@ -17,7 +17,6 @@ namespace Assets.Scripts.Lib
                 if (instace == null)
                 {
                     instance = (T)FindObjectOfType(typeof(T));
-
                     if (instance == null)
                     {
                         Debug.LogError("An instance of" + typeof(T) +

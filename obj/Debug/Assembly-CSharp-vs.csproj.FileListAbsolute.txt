@@ -1,0 +1,10 @@
+C:\Users\xyos\unity\tejo4kinect\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\xyos\unity\tejo4kinect\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\xyos\unity\tejo4kinect\Temp\bin\Debug\OpenNI.Net.dll
+C:\Users\xyos\unity\tejo4kinect\Temp\bin\Debug\UnityEditor.dll
+C:\Users\xyos\unity\tejo4kinect\Temp\bin\Debug\UnityEngine.dll
+C:\Users\xyos\unity\tejo4kinect\Temp\bin\Debug\ZDK.dll
+C:\Users\xyos\unity\tejo4kinect\Temp\bin\Debug\nunit.framework.dll
+C:\Users\xyos\unity\tejo4kinect\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\xyos\unity\tejo4kinect\obj\Debug\Assembly-CSharp.dll
+C:\Users\xyos\unity\tejo4kinect\obj\Debug\Assembly-CSharp.pdb

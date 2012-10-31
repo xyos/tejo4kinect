@@ -45,7 +45,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Game.cs" />
+     <Compile Include="Assets\Scripts\Lib\Core\Player.cs" />
+     <Compile Include="Assets\Scripts\Lib\Core\TejoGame.cs" />
      <Compile Include="Assets\Scripts\Lib\Singleton.cs" />
+     <Compile Include="Assets\Scripts\Lib\Utils\shootTest.cs" />
      <Compile Include="Assets\Scripts\Lib\Zig\UISessionControls\ZigFader.cs" />
      <Compile Include="Assets\Scripts\Lib\Zig\UISessionControls\ZigFollowHandPoint.cs" />
      <Compile Include="Assets\Scripts\Lib\Zig\UISessionControls\ZigFollowTejo.cs" />
@@ -71,6 +74,7 @@
      <Compile Include="Assets\Scripts\Lib\Zig\_Internal\TimedBuffer.cs" />
      <Compile Include="Assets\Scripts\Lib\Zig\_Internal\kinectSpecific.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Tejo.cs" />
  <Reference Include="OpenNI.Net">
  <HintPath>Assets\Scripts\Lib\Zig\_Internal\OpenNI.Net.dll</HintPath>
  </Reference>

@@ -40,7 +40,7 @@ public class MainMenu : MonoBehaviour
         GUILayout.BeginArea(new Rect(0, 0, Screen.width, 50));
         GUILayout.BeginHorizontal();
         GUILayout.FlexibleSpace();
-        if (GUILayout.Button("Back to menu"))
+        if (GUILayout.Button("Volver al Menu"))
         {
             Destroy(gameObject); //Otherwise we'd have two of these..
             Application.LoadLevel(0);
@@ -59,11 +59,11 @@ public class MainMenu : MonoBehaviour
         }
         if (GUI.Button(new Rect(Screen.width / 2 - 200 / 2, Screen.height / 2 - 50 / 2, 200, 50), "Instrucciones"))
         {
-            Application.LoadLevel(3);
+            Application.LoadLevel(2);
         }
         if (GUI.Button(new Rect(Screen.width / 2 - 200 / 2, Screen.height * 2 / 3 - 50 / 2, 200, 50), "Mejores Puntajes"))
         {
-            Application.LoadLevel(4);
+            Application.LoadLevel(2);
         }
     }
     // Update is called once per frame
