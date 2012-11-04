@@ -16,3 +16,7 @@ Temp/
 !Library/guidmapper
 !Library/unity default resources
 !Library/unity editor resources
+Library/cache/*
+Library/metadata/*
+Library/previews/*
+Library/ScriptAssemblies/*
