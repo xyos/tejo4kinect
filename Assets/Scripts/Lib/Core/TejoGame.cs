@@ -27,12 +27,12 @@ namespace Assets.Scripts.Lib.Core
                 Debug.Log(player);
                 this.players.Add(player);
             }
-            this.turn = 1;
+            this.turn = 0;
             this.activePlayer = this.players[0];
         }
         public string getScore()
         {
-            return "player:" + (this.turn % this.players.Count) + "score:" + activePlayer.score;
+            return "turn:" + this.turn + "  player:" + (this.turn % this.players.Count) + "  score:" + activePlayer.score;
         }
         public void newTurn() 
         {
@@ -43,8 +43,16 @@ namespace Assets.Scripts.Lib.Core
         {
             this.activePlayer.score += score;
         }
-        ~TejoGame()
+
+        public global::Assets.Scripts.Tejo Tejo
         {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
         }
     }
 }

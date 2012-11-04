@@ -16,7 +16,7 @@ class shootTest : MonoBehaviour
     {
         if (DateTime.Now > this._start.AddSeconds(5))
         {
-            Application.LoadLevel(4);
+            Application.LoadLevel(2);
         }
     }
 }

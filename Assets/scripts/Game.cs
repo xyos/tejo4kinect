@@ -4,6 +4,16 @@ using Assets.Scripts.Lib;
 
 public class Game : Singleton<MonoBehaviour>
 {
+    public global::MainMenu MainMenu
+    {
+        get
+        {
+            throw new System.NotImplementedException();
+        }
+        set
+        {
+        }
+    }
 
     void Awake()
     {

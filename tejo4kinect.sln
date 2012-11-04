@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{DD37DF1B-B519-4C78-1EF6-00A652D5F110}") = "tejo4kinect", "Assembly-CSharp.csproj", "{F3FE2EDD-DAD0-6D87-B85A-912E56021A74}"
 EndProject
+Project("{DD37DF1B-B519-4C78-1EF6-00A652D5F110}") = "tejo4kinect", "Assembly-UnityScript.unityproj", "{56324EE8-B00F-958C-C2B6-C61ECCF382B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{F3FE2EDD-DAD0-6D87-B85A-912E56021A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3FE2EDD-DAD0-6D87-B85A-912E56021A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3FE2EDD-DAD0-6D87-B85A-912E56021A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56324EE8-B00F-958C-C2B6-C61ECCF382B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56324EE8-B00F-958C-C2B6-C61ECCF382B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56324EE8-B00F-958C-C2B6-C61ECCF382B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56324EE8-B00F-958C-C2B6-C61ECCF382B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																GlobalSection(MonoDevelopProperties) = preSolution
+																						GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

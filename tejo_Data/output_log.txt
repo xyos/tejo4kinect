@@ -8,3 +8,42 @@ Direct3D:
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+Initialize engine version: 3.5.6f4
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\xyos\unity\tejo4kinect\tejo_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\xyos\unity\tejo4kinect\tejo_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\xyos\unity\tejo4kinect\tejo_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\xyos\unity\tejo4kinect\tejo_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\xyos\unity\tejo4kinect\tejo_Data\Managed\OpenNI.Net.dll (this message is harmless)
+Loading C:\Users\xyos\unity\tejo4kinect\tejo_Data\Managed\OpenNI.Net.dll into Unity Child Domain
+Platform assembly: C:\Users\xyos\unity\tejo4kinect\tejo_Data\Managed\ZDK.dll (this message is harmless)
+Loading C:\Users\xyos\unity\tejo4kinect\tejo_Data\Managed\ZDK.dll into Unity Child Domain
+- Completed reload, in  0.078 seconds
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 97. Operation took 4.733478 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 150. Operation took 2.743310 ms.
+Assets.Scripts.Lib.Core.Player
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 145. Operation took 2.650940 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 140. Operation took 4.809848 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 153. Operation took 5.260526 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 148. Operation took 5.248754 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 143. Operation took 2.680523 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 145. Operation took 2.365380 ms.

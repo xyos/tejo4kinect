@@ -71,4 +71,15 @@ public class MainMenu : MonoBehaviour
     {
 
     }
+
+    public global::Assets.Scripts.Tejo Tejo
+    {
+        get
+        {
+            throw new System.NotImplementedException();
+        }
+        set
+        {
+        }
+    }
 }
