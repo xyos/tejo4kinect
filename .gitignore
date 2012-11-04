@@ -1,0 +1,18 @@
+Assembly-CSharp-vs.csproj
+Assembly-CSharp.csproj
+Assembly-CSharp.pidb
+Library/
+tejo4kinect-csharp.sln
+tejo4kinect.sln
+tejo4kinect.userprefs
+Temp/
+!Library/*.asset
+!Library/AssetImportState
+!Library/AssetVersioning.db
+!Library/BuildPlayer.prefs
+!Library/ScriptMapper
+!Library/assetservercachev3
+!Library/expandedItems
+!Library/guidmapper
+!Library/unity default resources
+!Library/unity editor resources
