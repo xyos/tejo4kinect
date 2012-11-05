@@ -25,7 +25,7 @@ public class Game : Singleton<MonoBehaviour>
     // Use this for initialization
     void Start()
     {
-        Screen.sleepTimeout = SleepTimeout.NeverSleep;
+        Screen.sleepTimeout = (int)SleepTimeout.NeverSleep;
         Application.LoadLevel("MainMenu");
     }
 
