@@ -44,6 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\DragRigidObject.cs" />
      <Compile Include="Assets\Scripts\Game.cs" />
      <Compile Include="Assets\Scripts\Lib\Core\Player.cs" />
      <Compile Include="Assets\Scripts\Lib\Core\TejoGame.cs" />
@@ -74,6 +75,9 @@
      <Compile Include="Assets\Scripts\Lib\Zig\_Internal\TimedBuffer.cs" />
      <Compile Include="Assets\Scripts\Lib\Zig\_Internal\kinectSpecific.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
+     <Compile Include="Assets\Scripts\Standard Assets\Scripts\Utility Scripts\CombineChildren.cs" />
+     <Compile Include="Assets\Scripts\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" />
      <Compile Include="Assets\Scripts\Tejo.cs" />
  <Reference Include="OpenNI.Net">
  <HintPath>Assets\Scripts\Lib\Zig\_Internal\OpenNI.Net.dll</HintPath>

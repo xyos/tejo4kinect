@@ -16,3 +16,26 @@ Temp/
 !Library/guidmapper
 !Library/unity default resources
 !Library/unity editor resources
+Library/cache/*
+Library/metadata/*
+Library/previews/*
+Library/ScriptAssemblies/*
+AnnotationManager
+assetDatabase3
+AssetImportState
+assetservercachev3
+AssetServerCacheV3
+AssetVersioning.db
+AudioManager.asset
+BuildPlayer.prefs
+BuildSettings.asset
+DynamicsManager.asset
+EditorSettings.asset
+EditorUserBuildSettings.asset
+expandedItems
+FailedAssetImports.txt
+guidmapper
+InspectorExpandedItems.asset
+MonoManager.asset
+NetworkManager.asset
+ScriptMapper

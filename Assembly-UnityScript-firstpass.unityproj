@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{56324EE8-B00F-958C-C2B6-C61ECCF382B6}</ProjectGuid>
+	<ProjectGuid>{F01EA220-4B9D-8D92-A392-E892735F92B8}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<AssemblyName>Assembly-UnityScript-firstpass</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,16 +44,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\ActivateGravity.js" />
-     <Compile Include="Assets\Scripts\CollitionDetector.js" />
-     <Compile Include="Assets\Scripts\DispVelocity.js" />
-     <Compile Include="Assets\Scripts\DragTejo.js" />
-     <Compile Include="Assets\Scripts\ShootScript.js" />
-     <Compile Include="Assets\Scripts\Standard Assets\Scripts\Camera Scripts\MouseOrbit.js" />
-     <Compile Include="Assets\Scripts\Standard Assets\Scripts\Camera Scripts\SmoothFollow.js" />
-     <Compile Include="Assets\Scripts\Standard Assets\Scripts\Camera Scripts\SmoothLookAt.js" />
-     <Compile Include="Assets\Scripts\Standard Assets\Scripts\General Scripts\DragRigidbody.js" />
-     <Compile Include="Assets\Scripts\TriggerSound.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\MouseOrbit.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\SmoothFollow.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\SmoothLookAt.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\General Scripts\DragRigidbody.js" />
  <Reference Include="OpenNI.Net">
  <HintPath>Assets\Scripts\Lib\Zig\_Internal\OpenNI.Net.dll</HintPath>
  </Reference>

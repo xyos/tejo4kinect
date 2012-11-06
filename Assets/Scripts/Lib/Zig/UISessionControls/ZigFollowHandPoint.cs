@@ -1,13 +1,13 @@
 using UnityEngine;
 using System;
-
+using System.Collections;
 public class ZigFollowHandPoint : MonoBehaviour
 {
 	public Vector3 Scale = new Vector3(0.02f, 0.02f, -0.02f);
 	public Vector3 bias;
 	public float damping = 5;
-    public Vector3 bounds = new Vector3(10, 10, 10);
-
+    public Vector3 bounds = new Vector3(10, 10, 10); 
+//	public TextMesh tejoVel;
     Vector3 focusPoint;
 	Vector3 desiredPos;
 	
@@ -16,7 +16,8 @@ public class ZigFollowHandPoint : MonoBehaviour
 	}
 	
 	void Update() {
-		transform.localPosition = Vector3.Lerp(transform.localPosition,  desiredPos, damping * Time.deltaTime);
+		transform.localPosition = Vector3.Lerp(transform.localPosition,  desiredPos, damping * Time.deltaTime);        		
+			
 	}
 
 	void Session_Start(Vector3 focusPoint) {
@@ -26,6 +27,7 @@ public class ZigFollowHandPoint : MonoBehaviour
 	void Session_Update(Vector3 handPoint) {
         Vector3 pos = handPoint - focusPoint;
         desiredPos = ClampVector(Vector3.Scale(pos, Scale) + bias, -0.5f * bounds, 0.5f * bounds);
+		
 	}
 	
 	void Session_End() {
@@ -35,6 +37,6 @@ public class ZigFollowHandPoint : MonoBehaviour
     Vector3 ClampVector(Vector3 vec, Vector3 min, Vector3 max) {
         return new Vector3(Mathf.Clamp(vec.x, min.x, max.x),
                            Mathf.Clamp(vec.y, min.y, max.y),
-                           Mathf.Clamp(vec.z, min.z, max.z));
+                           Mathf.Clamp(-vec.z, min.z, max.z));
     }
 }
