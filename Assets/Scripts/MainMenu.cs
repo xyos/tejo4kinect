@@ -72,7 +72,7 @@ public class MainMenu : MonoBehaviour
 
     }
 
-    public global::Assets.Scripts.Tejo Tejo
+    public global::Tejo Tejo
     {
         get
         {

@@ -7,7 +7,7 @@ namespace Assets.Scripts.Lib.Core
 {
     public class Player
     {
-        public int score { get; set; }
+        public int Score { get; set; }
 
         public TejoGame TejoGame
         {
@@ -15,14 +15,11 @@ namespace Assets.Scripts.Lib.Core
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
     
         public Player()
         {
-            this.score = 0;
+            this.Score = 0;
         }
     }
 }
