@@ -75,12 +75,13 @@ public class Tejo : MonoSingleton<Tejo>
     // Update is called once per frame
     void Update()
     {
-        if (_gameStarted && Application.loadedLevel == 2)
-        {
-            Application.LoadLevel(4);
-            _game.ActivePlayer.Score += 3;
-            _game.NewTurn();
-        }
+    }
+    public void addScore(int score) {
+        _game.ActivePlayer.Score += score;
+    }
+    public void nextTurn()
+    {
+        _game.NewTurn();
     }
 }
 
