@@ -45,9 +45,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ActivateGravity.js" />
+     <Compile Include="Assets\Scripts\ColitionDetectorTejo.js" />
      <Compile Include="Assets\Scripts\CollitionDetector.js" />
      <Compile Include="Assets\Scripts\DispVelocity.js" />
      <Compile Include="Assets\Scripts\DragTejo.js" />
+     <Compile Include="Assets\Scripts\Lanzamiento.js" />
      <Compile Include="Assets\Scripts\ShootScript.js" />
      <Compile Include="Assets\Scripts\Standard Assets\Scripts\Camera Scripts\MouseOrbit.js" />
      <Compile Include="Assets\Scripts\Standard Assets\Scripts\Camera Scripts\SmoothFollow.js" />

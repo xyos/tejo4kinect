@@ -2,11 +2,11 @@ using UnityEngine;
 using Assets.Scripts.Lib.Core;
 
 
-public class Tejo : MonoBehaviour
+public class Tejo : MonoSingleton<Tejo>
 {
     private TejoGame _game;
     private bool _gameStarted;
-    void Awake()
+    public void Awake()
     {
         //Make this script persistent(Not destroy when loading a new level)
         DontDestroyOnLoad(this);
@@ -17,6 +17,11 @@ public class Tejo : MonoBehaviour
     void Start()
     {
 
+    }
+    public void reset()
+    {
+        this._gameStarted = false;
+        this._game = null;
     }
     void StartGame(int nr)
     {

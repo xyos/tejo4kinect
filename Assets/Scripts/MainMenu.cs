@@ -4,7 +4,7 @@ using Assets.Scripts.Lib;
 
 public class MainMenu : MonoSingleton<MainMenu>
 {
-    void Awake()
+    public void Awake()
     {
         //Make this script persistent(Not destroy when loading a new level)
         DontDestroyOnLoad(this);
@@ -24,8 +24,9 @@ public class MainMenu : MonoSingleton<MainMenu>
     {
 
         //Detect if we're in the main menu scene
-        if (Application.loadedLevel == 1)
+        if (Application.loadedLevel == 0)
         {
+            Tejo.instance.reset();
             MainMenuGUI();
         }
         else
@@ -56,6 +57,7 @@ public class MainMenu : MonoSingleton<MainMenu>
 
         if (GUI.Button(new Rect(Screen.width / 2 - 200 / 2, Screen.height / 3 - 50 / 2, 200, 50), "Nuevo Juego"))
         {
+            Tejo.instance.Awake();
             Application.LoadLevel(2);
         }
         if (GUI.Button(new Rect(Screen.width / 2 - 200 / 2, Screen.height / 2 - 50 / 2, 200, 50), "Instrucciones"))
@@ -68,7 +70,7 @@ public class MainMenu : MonoSingleton<MainMenu>
         }
     }
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
 
     }

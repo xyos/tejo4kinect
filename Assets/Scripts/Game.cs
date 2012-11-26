@@ -4,7 +4,7 @@ using Assets.Scripts.Lib;
 
 public class Game : MonoSingleton<Game>
 {
-    void Awake()
+    public void Awake()
     {
         //persistence between levels
         DontDestroyOnLoad(this);
@@ -15,13 +15,13 @@ public class Game : MonoSingleton<Game>
     void Start()
     {
         Screen.sleepTimeout = (int)SleepTimeout.NeverSleep;
-        Application.LoadLevel("MainMenu");
+        MainMenu.instance.Awake();
+        //Application.LoadLevel("MainMenu");
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
-
-
+        MainMenu.instance.Update();
     }
 }
