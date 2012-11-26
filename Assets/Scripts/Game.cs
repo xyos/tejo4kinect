@@ -2,19 +2,8 @@ using UnityEngine;
 using System.Collections;
 using Assets.Scripts.Lib;
 
-public class Game : Singleton<MonoBehaviour>
+public class Game : MonoSingleton<Game>
 {
-    public global::MainMenu MainMenu
-    {
-        get
-        {
-            throw new System.NotImplementedException();
-        }
-        set
-        {
-        }
-    }
-
     void Awake()
     {
         //persistence between levels

@@ -32,6 +32,7 @@ public class Tejo : MonoBehaviour
         else if (Application.loadedLevel == 2)
         {
             MainMenuGUI();
+
         }
 
     }

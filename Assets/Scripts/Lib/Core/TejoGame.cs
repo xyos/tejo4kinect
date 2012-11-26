@@ -11,7 +11,7 @@ namespace Assets.Scripts.Lib.Core
     /// </summary>
     public class TejoGame
     {
-        List<Player> players = new List<Player>();
+        readonly List<Player> _players = new List<Player>();
         public int Turn { get; set; }
         public Player ActivePlayer;
         // Constructor
@@ -23,21 +23,21 @@ namespace Assets.Scripts.Lib.Core
             }
             for (int i = 0; i < playersCount; i++)
             {
-                Player player = new Player();
+                var player = new Player();
                 Debug.Log(player);
-                this.players.Add(player);
+                this._players.Add(player);
             }
             this.Turn = 0;
-            this.ActivePlayer = this.players[0];
+            this.ActivePlayer = this._players[0];
         }
         public string GetScore()
         {
-            return "turn:" + this.Turn + "  player:" + (this.Turn % this.players.Count) + "  score:" + ActivePlayer.Score;
+            return "turn:" + this.Turn + "  player:" + (this.Turn % this._players.Count) + "  score:" + ActivePlayer.Score;
         }
         public void NewTurn() 
         {
             this.Turn++;
-            this.ActivePlayer = this.players[(this.Turn - 1) % this.players.Count];
+            this.ActivePlayer = this._players[(this.Turn - 1) % this._players.Count];
         }
         public void AddScore(int score)
         {

@@ -1,7 +1,8 @@
 using UnityEngine;
 using System.Collections;
+using Assets.Scripts.Lib;
 
-public class MainMenu : MonoBehaviour
+public class MainMenu : MonoSingleton<MainMenu>
 {
     void Awake()
     {
@@ -72,7 +73,7 @@ public class MainMenu : MonoBehaviour
 
     }
 
-    public global::Tejo Tejo
+    public Tejo Tejo
     {
         get
         {
