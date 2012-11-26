@@ -32,7 +32,7 @@ namespace Assets.Scripts.Lib.Core
         }
         public string GetScore()
         {
-            return "turn:" + this.Turn + "  player:" + (this.Turn % this._players.Count) + "  score:" + ActivePlayer.Score;
+            return "Turno:" + this.Turn + "  Jugador:" + (this.Turn  % this._players.Count ) + "  puntaje:" + ActivePlayer.Score;
         }
         public void NewTurn() 
         {

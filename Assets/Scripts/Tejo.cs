@@ -64,7 +64,7 @@ public class Tejo : MonoSingleton<Tejo>
     void InGameGUI()
     {
         //Top-right
-        GUILayout.BeginArea(new Rect(0, 100, Screen.width, 100));
+        GUILayout.BeginArea(new Rect(0, 200, Screen.width, 200));
         GUILayout.BeginHorizontal();
         GUILayout.FlexibleSpace();
         GUILayout.Label(_game.GetScore());
